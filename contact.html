@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- META DATA -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -9,7 +10,8 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <title>Contact & Info</title>
-<!-- Bootstrap -->
+<!-- /META -->
+<!-- BOOTSTRAP DO NOT TOUCH -->
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,6 +19,8 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<!-- /BOOTSTRAP -->
+<!-- STYLE/FONTS -->
 <style type="text/css">
     @font-face {
 font-family: "Roboto Condensed";
@@ -58,8 +62,10 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
     font-weight:bold
 }
 </style>
+<!-- /STYLE -->
 </head>
 <body>
+<!-- NAVBAR -->
 <div style="font-family: 'Roboto Condensed';" class="container-fluid" id="top">
 	<img src="img/logo.png" alt="JROTC Logo" class="img-thumbnail">
 	<nav class="navbar navbar-default" role="navigation">
@@ -96,12 +102,12 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 			</li>
 		</ul>
 	</div>
-	<!-- /.navbar-collapse -->
 </div>
-<!-- /.container-fluid -->
 </nav>
 </div>
 </div>
+<!-- /NAVBAR -->
+<!-- INFO CAROUSEL -->
 <div class="container-fluid">
 <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="10500">
 <!-- Wrapper for slides -->
@@ -112,6 +118,7 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 				<div class="col-md-3">
 					<img src="http://placehold.it/350x250" class="img-responsive">
 				</div>
+				<!-- SLIDE 1 -->
 				<div class="col-md-8">
 					<h2 style="font-family: 'Roboto Condensed';">Slide 1</h2>
 					<p style="font-family: 'Roboto';">
@@ -130,6 +137,7 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 				<div class="col-md-3">
 					<img src="http://placehold.it/350x250" class="img-responsive">
 				</div>
+				<!-- SLIDE 2 -->
 				<div class="col-md-8">
 					<h2 style="font-family: 'Roboto Condensed';">Slide 2</h2>
 					<p style="font-family: 'Roboto';">
@@ -148,6 +156,7 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 				<div class="col-md-3">
 					<img src="http://placehold.it/350x250" class="img-responsive">
 				</div>
+				<!-- SLIDE 3 -->
 				<div class="col-md-8">
 					<h2 style="font-family: 'Roboto Condensed';">Slide 3</h2>
 					<p style="font-family: 'Roboto';">
@@ -166,6 +175,7 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 				<div class="col-md-3">
 					<img src="http://placehold.it/350x250" class="img-responsive">
 				</div>
+				<!-- SLIDE 4 -->
 				<div class="col-md-8">
 					<h2 style="font-family: 'Roboto Condensed';">Slide 4</h2>
 					<p style="font-family: 'Roboto';">
@@ -178,9 +188,8 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 			</div>
 		</div>
 	</div>
-	<!-- End Item -->
 </div>
-<!-- End Carousel Inner -->
+<!-- BOTTOM OF CAROUSEL -->
 <div class="controls">
 	<ul class="nav">
 		<li data-target="#custom_carousel" data-slide-to="0"><a href="#"><img src="http://placehold.it/50x50"><small>Slide One</small></a></li>
@@ -189,7 +198,10 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 		<li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="http://placehold.it/50x50"><small>Slide Four</small></a></li>
 	</ul>
 </div>
+<!-- /BOTTOM -->
 </div>
+<!-- /INFO CAROUSEL -->
+<!-- Script that makes @Info Carousel scroll around -->
 <script type="text/javascript">
 	$(document).ready(function(ev){
     $('#custom_carousel').on('slide.bs.carousel', function (evt) {
@@ -198,8 +210,8 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
     })
 });
 </script>
-<!-- End Carousel -->
 </div>
+<!-- CONTACT JUMBOTRON -->
 <br>
 <div style="font-family: 'Roboto Condensed';" class="jumbotron jumbotron-sm">
 <div class="container">
@@ -219,6 +231,7 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
+					<!-- CONTACT FORM -->
 						<form action="formmail.php" method="post">
 							<input type="hidden" name="recipients" value="tony.dalessandro90@gmail.com"/>
 							<label for="name">
@@ -259,8 +272,10 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 				</div>
 			</div>
 		</form>
+		<!-- /CONTACT FORM -->
 	</div>
 </div>
+<!-- ADDRESS -->
 <div class="col-md-4">
 	<form>
 		<legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
@@ -273,12 +288,14 @@ src: url("fonts/roboto/Roboto-Regular.ttf") /* TTF file for CSS3 browsers */
 		(123) 456-7890 </address>
 		<address>
 		<strong>Full Name</strong><br>
-		<a href="mailto:#">first.last@example.com</a>
+		<a href="mailto:bchsjrotc@gmail.com">first.last@example.com</a>
 		</address>
 	</form>
 </div>
 </div>
 </div>
+<!-- /ADDRESS -->
+<!-- /JUMBOTRON -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
